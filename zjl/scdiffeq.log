@@ -1,0 +1,89 @@
+2026-04-09 14:23:06,473 - scdiffeq.datasets._larry_in_vitro - INFO - Loading data from /data/cai803/scDiffEq/data/scdiffeq_data/larry/larry.h5ad
+2026-04-09 14:23:12,157 - scdiffeq.datasets._larry_in_vitro - INFO - Loading data from /data/cai803/scDiffEq/data/scdiffeq_data/larry/larry.h5ad
+2026-04-09 14:27:02,987 - scdiffeq.datasets._larry_in_vitro - INFO - Loading data from /data/cai803/scDiffEq/data/scdiffeq_data/larry/larry.h5ad
+2026-04-09 21:31:58,499 - scdiffeq.core._mix_ins._model_config_mix_in - INFO - Input data configured.
+2026-04-09 21:31:58,503 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - Model fetched: 'LightningSDE_FixedPotential_RegularizedVelocityRatio'
+2026-04-09 21:31:58,531 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - {'latent_dim': 50, 'name': None, 'backend': 'auto', 'velocity_ratio_params': {'target': 2.5, 'enforce': 100, 'method': 'square'}, 'train_lr': 0.0001, 'train_optimizer': <class 'torch.optim.rmsprop.RMSprop'>, 'train_scheduler': <class 'torch.optim.lr_scheduler.StepLR'>, 'train_step_size': 2250, 'dt': 0.1, 'mu_hidden': [512, 512], 'mu_activation': 'LeakyReLU', 'mu_dropout': 0.1, 'mu_bias': True, 'mu_output_bias': True, 'mu_n_augment': 0, 'sigma_hidden': [32, 32], 'sigma_activation': 'LeakyReLU', 'sigma_dropout': 0.1, 'sigma_bias': True, 'sigma_output_bias': True, 'sigma_n_augment': 0, 'adjoint': False, 'sde_type': 'ito', 'noise_type': 'general', 'brownian_dim': 1, 'coef_drift': 1.0, 'coef_diffusion': 1.0, 'args': (), 'loading_existing': False}
+2026-04-09 21:35:25,534 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-09 21:35:25,543 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-09 21:35:25,566 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-09 21:37:22,214 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-09 21:37:22,222 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-09 21:37:22,244 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-09 21:37:56,559 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-09 21:37:56,567 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-09 21:37:56,588 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-09 21:38:12,362 - scdiffeq.core._mix_ins._model_config_mix_in - INFO - Input data configured.
+2026-04-09 21:38:12,368 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - Model fetched: 'LightningSDE_FixedPotential_RegularizedVelocityRatio'
+2026-04-09 21:38:12,398 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - {'latent_dim': 50, 'name': None, 'backend': 'auto', 'velocity_ratio_params': {'target': 2.5, 'enforce': 100, 'method': 'square'}, 'train_lr': 0.0001, 'train_optimizer': <class 'torch.optim.rmsprop.RMSprop'>, 'train_scheduler': <class 'torch.optim.lr_scheduler.StepLR'>, 'train_step_size': 2250, 'dt': 0.1, 'mu_hidden': [512, 512], 'mu_activation': 'LeakyReLU', 'mu_dropout': 0.1, 'mu_bias': True, 'mu_output_bias': True, 'mu_n_augment': 0, 'sigma_hidden': [32, 32], 'sigma_activation': 'LeakyReLU', 'sigma_dropout': 0.1, 'sigma_bias': True, 'sigma_output_bias': True, 'sigma_n_augment': 0, 'adjoint': False, 'sde_type': 'ito', 'noise_type': 'general', 'brownian_dim': 1, 'coef_drift': 1.0, 'coef_diffusion': 1.0, 'args': (), 'loading_existing': False}
+2026-04-09 21:38:15,151 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-09 21:38:15,160 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-09 21:38:15,184 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-13 21:21:29,862 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-13 21:21:29,870 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-13 21:21:29,891 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-13 21:22:01,152 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-13 21:22:01,160 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-13 21:22:01,181 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-13 21:22:24,695 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-13 21:22:24,703 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-13 21:22:24,724 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-13 21:24:33,348 - scdiffeq.datasets._larry_in_vitro - INFO - Loading data from /data/cai803/scDiffEq/data/scdiffeq_data/larry/larry.h5ad
+2026-04-13 21:28:08,364 - scdiffeq.core._mix_ins._model_config_mix_in - INFO - Input data configured.
+2026-04-13 21:28:08,368 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - Model fetched: 'LightningSDE_FixedPotential_RegularizedVelocityRatio'
+2026-04-13 21:28:08,373 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - {'latent_dim': 50, 'name': None, 'backend': 'auto', 'velocity_ratio_params': {'target': 2, 'enforce': 100, 'method': 'square'}, 'train_lr': 1e-05, 'train_optimizer': <class 'torch.optim.rmsprop.RMSprop'>, 'train_scheduler': <class 'torch.optim.lr_scheduler.StepLR'>, 'train_step_size': 10, 'dt': 0.1, 'mu_hidden': [512, 512], 'mu_activation': 'LeakyReLU', 'mu_dropout': 0.1, 'mu_bias': True, 'mu_output_bias': True, 'mu_n_augment': 0, 'sigma_hidden': [32, 32], 'sigma_activation': 'LeakyReLU', 'sigma_dropout': 0.1, 'sigma_bias': True, 'sigma_output_bias': True, 'sigma_n_augment': 0, 'adjoint': False, 'sde_type': 'ito', 'noise_type': 'general', 'brownian_dim': 1, 'coef_drift': 1.0, 'coef_diffusion': 1.0, 'args': (), 'loading_existing': False}
+2026-04-13 21:28:10,934 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-13 21:28:10,943 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-13 21:28:10,964 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-13 21:32:40,425 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-13 21:32:40,433 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-13 21:32:40,454 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_0
+2026-04-13 22:11:01,397 - scdiffeq.tools._drift_diffusion_state_characterization - INFO - Added: adata.obsm['X_drift']
+2026-04-13 22:11:01,400 - scdiffeq.tools._drift_diffusion_state_characterization - INFO - Added: adata.obsm['drift']
+2026-04-13 22:11:02,139 - scdiffeq.tools._drift_diffusion_state_characterization - INFO - Added: adata.obsm['X_diffusion']
+2026-04-13 22:11:02,141 - scdiffeq.tools._drift_diffusion_state_characterization - INFO - Added: adata.obsm['diffusion']
+2026-04-13 22:14:07,811 - scdiffeq.tools._velocity_graph - DEBUG - Starting velocity_graph computation...
+2026-04-13 22:14:22,023 - scdiffeq.tools.utils._scverse_neighbors - INFO - Added: adata.obsp['distances']
+2026-04-13 22:14:22,024 - scdiffeq.tools.utils._scverse_neighbors - INFO - Added: adata.obsp['connectivities']
+2026-04-13 22:14:22,025 - scdiffeq.tools.utils._scverse_neighbors - INFO - Added: adata.uns['neighbors']
+2026-04-13 22:14:22,034 - scdiffeq.tools._velocity_graph - DEBUG - Starting ComputeCosines computation...
+2026-04-13 22:15:43,245 - scdiffeq.tools.utils._compute_cosines - INFO - Added: adata.obsp['velocity_graph']
+2026-04-13 22:15:43,246 - scdiffeq.tools.utils._compute_cosines - INFO - Added: adata.obsp['velocity_graph_neg']
+2026-04-13 22:15:43,247 - scdiffeq.tools._velocity_graph - DEBUG - ComputeCosines computation finished in 81.21 seconds.
+2026-04-13 22:15:43,247 - scdiffeq.tools._velocity_graph - DEBUG - velocity_graph finished in 95.44 seconds.
+2026-04-13 22:19:07,117 - scdiffeq.core._mix_ins._knn_mix_in - INFO - Bulding Annoy kNN Graph on adata.obsm['train']
+2026-04-14 11:12:12,234 - scdiffeq.tools._annotate_cell_fate - INFO - Added fate annotation: adata_sim.obs['fate']
+2026-04-14 11:12:12,236 - scdiffeq.tools._annotate_cell_fate - INFO - Added fate counts: adata_sim.uns['fate_counts']
+2026-04-14 16:01:22,038 - scdiffeq.datasets._larry_in_vitro - INFO - Loading data from /data/cai803/scDiffEq/data/scdiffeq_data/larry/larry.h5ad
+2026-04-14 16:04:25,520 - scdiffeq.core._mix_ins._model_config_mix_in - INFO - Input data configured.
+2026-04-14 16:04:25,525 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - Model fetched: 'LightningSDE_FixedPotential_RegularizedVelocityRatio'
+2026-04-14 16:04:25,529 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - {'latent_dim': 50, 'name': None, 'backend': 'auto', 'velocity_ratio_params': {'target': 2, 'enforce': 100, 'method': 'square'}, 'train_lr': 1e-05, 'train_optimizer': <class 'torch.optim.rmsprop.RMSprop'>, 'train_scheduler': <class 'torch.optim.lr_scheduler.StepLR'>, 'train_step_size': 10, 'dt': 0.1, 'mu_hidden': [512, 512], 'mu_activation': 'LeakyReLU', 'mu_dropout': 0.1, 'mu_bias': True, 'mu_output_bias': True, 'mu_n_augment': 0, 'sigma_hidden': [32, 32], 'sigma_activation': 'LeakyReLU', 'sigma_dropout': 0.1, 'sigma_bias': True, 'sigma_output_bias': True, 'sigma_n_augment': 0, 'adjoint': False, 'sde_type': 'ito', 'noise_type': 'general', 'brownian_dim': 1, 'coef_drift': 1.0, 'coef_diffusion': 1.0, 'args': (), 'loading_existing': False}
+2026-04-14 16:04:32,096 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-14 16:04:32,106 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-14 16:04:32,127 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_1
+2026-04-14 16:04:46,768 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-14 16:04:46,776 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-14 16:04:46,796 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_1
+2026-04-14 16:05:53,806 - scdiffeq.datasets._larry_in_vitro - INFO - Loading data from /data/cai803/scDiffEq/data/scdiffeq_data/larry/larry.h5ad
+2026-04-14 16:12:41,052 - scdiffeq.core._mix_ins._model_config_mix_in - INFO - Input data configured.
+2026-04-14 16:12:41,057 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - Model fetched: 'LightningSDE_FixedPotential_RegularizedVelocityRatio'
+2026-04-14 16:12:41,061 - scdiffeq.core.configs._lightning_model_configuration - DEBUG - {'latent_dim': 50, 'name': None, 'backend': 'auto', 'velocity_ratio_params': {'target': 2, 'enforce': 100, 'method': 'square'}, 'train_lr': 1e-05, 'train_optimizer': <class 'torch.optim.rmsprop.RMSprop'>, 'train_scheduler': <class 'torch.optim.lr_scheduler.StepLR'>, 'train_step_size': 10, 'dt': 0.1, 'mu_hidden': [512, 512], 'mu_activation': 'LeakyReLU', 'mu_dropout': 0.1, 'mu_bias': True, 'mu_output_bias': True, 'mu_n_augment': 0, 'sigma_hidden': [32, 32], 'sigma_activation': 'LeakyReLU', 'sigma_dropout': 0.1, 'sigma_bias': True, 'sigma_output_bias': True, 'sigma_n_augment': 0, 'adjoint': False, 'sde_type': 'ito', 'noise_type': 'general', 'brownian_dim': 1, 'coef_drift': 1.0, 'coef_diffusion': 1.0, 'args': (), 'loading_existing': False}
+2026-04-14 16:12:44,412 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Configuring training step
+2026-04-14 16:12:44,427 - scdiffeq.core.configs._progress_bar_config - INFO - Detected environment: jupyter
+2026-04-14 16:12:44,448 - scdiffeq.core._mix_ins._training_routine_mix_ins - DEBUG - Logging locally to: /data/cai803/scDiffEq/wd/LightningSDE-FixedPotential-RegularizedVelocityRatio/version_1
+2026-04-14 16:44:55,108 - scdiffeq.core._mix_ins._knn_mix_in - INFO - Bulding Annoy kNN Graph on adata.obsm['train']
+2026-04-14 16:44:59,356 - scdiffeq.tools._drift_diffusion_state_characterization - INFO - Added: adata.obsm['X_drift']
+2026-04-14 16:44:59,362 - scdiffeq.tools._drift_diffusion_state_characterization - INFO - Added: adata.obsm['drift']
+2026-04-14 16:44:59,891 - scdiffeq.tools._drift_diffusion_state_characterization - INFO - Added: adata.obsm['X_diffusion']
+2026-04-14 16:44:59,893 - scdiffeq.tools._drift_diffusion_state_characterization - INFO - Added: adata.obsm['diffusion']
+2026-04-14 16:45:03,694 - scdiffeq.tools._velocity_graph - DEBUG - Starting velocity_graph computation...
+2026-04-14 16:45:17,779 - scdiffeq.tools.utils._scverse_neighbors - INFO - Added: adata.obsp['distances']
+2026-04-14 16:45:17,779 - scdiffeq.tools.utils._scverse_neighbors - INFO - Added: adata.obsp['connectivities']
+2026-04-14 16:45:17,780 - scdiffeq.tools.utils._scverse_neighbors - INFO - Added: adata.uns['neighbors']
+2026-04-14 16:45:17,790 - scdiffeq.tools._velocity_graph - DEBUG - Starting ComputeCosines computation...
+2026-04-14 16:46:40,522 - scdiffeq.tools.utils._compute_cosines - INFO - Added: adata.obsp['velocity_graph']
+2026-04-14 16:46:40,524 - scdiffeq.tools.utils._compute_cosines - INFO - Added: adata.obsp['velocity_graph_neg']
+2026-04-14 16:46:40,524 - scdiffeq.tools._velocity_graph - DEBUG - ComputeCosines computation finished in 82.73 seconds.
+2026-04-14 16:46:40,525 - scdiffeq.tools._velocity_graph - DEBUG - velocity_graph finished in 96.83 seconds.
+2026-04-14 16:47:27,610 - scdiffeq.tools._annotate_cell_fate - INFO - Added fate annotation: adata_sim.obs['fate']
+2026-04-14 16:47:27,613 - scdiffeq.tools._annotate_cell_fate - INFO - Added fate counts: adata_sim.uns['fate_counts']
